@@ -18,7 +18,7 @@ $(document).ready(function () {
         });
         if (oid !== false) startOverlay(oid);
     }
-    $('.close').click(function () {
+    $('.closs').click(function () {
         closeOverlays(false);
     });
     $('.overlay-click').click(function (e) {

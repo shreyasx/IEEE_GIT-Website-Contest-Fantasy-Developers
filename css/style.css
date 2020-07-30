@@ -107,10 +107,6 @@ li {
   display: none;
 }
 
-.close {
-  cursor: pointer;
-}
-
 #accordion {
   font-family: 'Roboto', sans-serif;
 }
