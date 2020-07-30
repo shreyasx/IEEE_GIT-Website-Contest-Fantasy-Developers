@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  background-color: rgb(255, 247, 247);
+  font-size: 22px;
+}
+
+#bottom-body {
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.course-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #23159e;
+  border: 5px solid #23159e;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#ieeelogo {
+  padding: 25px;
+  width: 60%;
+  margin: auto;
+}
+
+#headp {
+  margin-top: 20px;
+}
+
+p,
+li {
+  clear: both;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#ieeetitle {
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.list-group {
+  width: 85%;
+  margin: auto;
+}
+
+#ieeestudents {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.inside {
+  list-style-position: inside;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.overlay-veil {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #cecece;
+  display: none;
+}
+
+.overlay-component {
+  border: 3px solid black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+}
+
+#accordion {
+  font-family: 'Roboto', sans-serif;
+}
+
+#accordion .card-body {
+  font-size: 16px;
+}
+
+#info {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(146, 146, 173);
+  text-decoration: underline;
+}
+
+#gitbanner {
+  width: 100%;
+}
+
+.footer-copyright {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.history {
+  margin-top: 10px;
+  background-color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#histitle {
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+
+@media(max-width:767px) {
+  #navbarSupportedContent {
+    background-color: #292b2c;
+  }
+
+  #navbarSupportedContent ul li {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media(max-width:575px) {
+  * {
+    font-size: 14px;
+  }
+
+  #ieeetitle {
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+  }
+
+  #ieeelogo {
+    padding: 20px;
+    width: 100%;
+  }
+
+  #bottom-body {
+    padding: 5px !important;
+  }
+
+  .history {
+    padding: 5px !important;
+  }
+}
