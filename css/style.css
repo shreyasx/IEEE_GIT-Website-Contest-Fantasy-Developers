@@ -5,10 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.navc {
-  background-color: #21d192;
-}
-
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -168,12 +164,12 @@ body {
 }
 
 .teal {
-  background-color: #21d192;
+  background-color: #52aef0;
 }
 
 @media(max-width:767px) {
   #navbarSupportedContent {
-    background-color: #21d192;
+    background-color: #bdd8eb;
   }
 
   #navbarSupportedContent ul li {
