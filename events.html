@@ -24,49 +24,27 @@
 
 <body>
     <img id="gitbanner" src="http://www.git.edu/wp-content/uploads/2020/03/gitbanner.png" alt="GIT banner">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height: 60px;">
-        <a class="navbar-brand" style="margin-left: 20px;margin-right: 50px;font-size: 30px;" href="#">IEEE-GIT</a>
+    <nav class="navbar navbar-expand-md navbar-light navc" style="height: 60px;">
+        <a class="navbar-brand" style="margin-left: 20px;margin-right: 50px;font-size: 30px;"
+            href="index.html">IEEE-GIT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="pb-4 pl-3 pr-3 nav-item">
+        <div class="collapse navbar-collapse justify-content-end my-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="pl-3 pr-3 nav-item">
                     <a class="nav-link" href="index.html">Home </a>
                 </li>
-                <li class="pb-4 pl-3 pr-3 nav-item">
+                <li class="pl-3 pr-3 nav-item">
                     <a class="nav-link" href="index.html#hieee">History</a>
                 </li>
-                <li class="pb-4 pl-3 pr-3 nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                <li class="pl-3 pr-3 nav-item">
+                    <a class="nav-link" href="index.html#events">Events</a>
                 </li>
-                <li class="pb-4 pl-3 pr-3 nav-item">
+                <li class="pl-3 pr-3 nav-item">
                     <a class="nav-link" href="index.html#achieve">Achievements</a>
-                </li>
-                <li class="pb-4 pl-3 pr-3 nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Useful Links
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://www.ieee.org/" target="blank">IEEE Website</a>
-                        <a class="dropdown-item" href="https://www.ieeer10.org/" target="blank">IEEE Region 10</a>
-                        <a class="dropdown-item" href="https://site.ieee.org/indiacouncil/" target="blank">IEEE India
-                            Council</a>
-                    </div>
-                </li>
-                <li class="pb-4 pl-3 pr-3 nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Get in Touch!
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item overlay-click" data-overlay="1" href="#">Contact Details</a>
-                        <a class="dropdown-item overlay-click" data-overlay="2" href="#">Contact Form</a>
-                        <a class="dropdown-item overlay-click" data-overlay="3" href="#">Social Media</a>
-                    </div>
                 </li>
             </ul>
         </div>
@@ -74,42 +52,38 @@
 
     <div class="overlay-veil"></div>
     <div class="overlay-component" data-overlayid="1">
-        <h2>Contact Details</h2>
-        <p>Email: shreyasx@icloud.com</p>
-        <p>Phone: +91 8698593178</p>
-        <p><a href="#" class="btn btn-outline-danger close">CLOSE</a></p>
+        <h2 class="mb-4" style="text-decoration: underline;">Application Form</h2>
+        <p><label for="namee">Full Name:</label>
+            <input id="namee" type="text" name="name"></p>
+        <p><label for="emaill">Email:</label>
+            <input id="emaill" type="text" name="email"></p>
+        <p><label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone"></p>
+        <p><label for="usn">College USN:</label>
+            <input type="text" name="usn" id="usn"></p>
+        <p><button class="btn btn-outline-success">Apply!</button>
+            <a href="#" class="btn btn-outline-danger closs">Close</a></p>
     </div>
     <div class="overlay-component" data-overlayid="2">
-        <h2>Contact Form</h2>
+        <h2 class="mb-4" style="text-decoration: underline;">Contact Form</h2>
         <form action="#">
             <p><label for="name">Full Name:</label>
                 <input id="name" type="text" name="name"></p>
             <p><label for="email">Email:</label>
                 <input id="email" type="text" name="email"></p>
-            <p><button class="btn-success">Contact Me!</button></p>
-            <p><a href="#" class="btn btn-outline-danger closs">CLOSE</a></p>
+            <p><label for="why">Why do you want us to Contact you?</label><br>
+                <input type="text" name="why" id="why"></p>
+            <p><a class="btn btn-outline-success">Contact Me!</a>
+                <a class="btn btn-outline-danger closs">Close</a></p>
         </form>
     </div>
-    <div class="overlay-component" data-overlayid="3">
-        <h2>Our Social Media:</h2>
-        <a href="https://www.instagram.com/ieee_git_official/" target="blank"><img
-                src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-instagram-icon-png-image_3584852.jpg"
-                alt="Instagram Logo" height="30px"></a>&nbsp;&nbsp;
-        <a href="https://www.facebook.com/IEEEGIT/" target="blank"><img
-                src="https://image.flaticon.com/icons/png/512/124/124010.png" alt="Facebook Logo"
-                height="30px"></a>&nbsp;&nbsp;
-        <a href="https://twitter.com/ieeegit?lang=en" target="blank"><img
-                src="https://www.cineramageddon.com/wp-content/uploads/2020/06/twitter-logo.png" alt="Twitter Logo"
-                height="30px"></a>&nbsp;&nbsp;
-        <p>Click on the icons to go to the page.</p>
-        <p><a href="#" class="btn btn-outline-danger close">CLOSE</a></p>
-    </div>
+
     <div class="shadow rounded container p-5" style="margin-top: 10px;background-color: white;">
         <div style="text-align: center;" class="pb-5">
             <h1>Events in GIT under IEEE Student Branch</h1>
         </div>
 
-        <div id="accordion">
+        <div id="accordion" class="m-auto">
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
@@ -234,7 +208,126 @@
         </div>
         <p id="info">Click on the Event name to know more about it.</p>
     </div>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Fantasy Developers</div>
+    <footer class="page-footer font-small blue-grey lighten-5">
+
+        <div style="background-color: #21d192;">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get Connected on Social Media!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/IEEEGIT/" target="blank" class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/ieeegit?lang=en" target="blank" class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://twitter.com/ieeegit?lang=en" target="blank" class="ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">IEEE-GIT</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Apply to be a Member of the IEEE-GIT Student Branch Now!
+                        Follow the Links Mentioned.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="https://www.ieee.org/" target="blank">IEEE Website</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="https://www.ieeer10.org/" target="blank">IEEE Region 10</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="https://site.ieee.org/indiacouncil/" target="blank">IEEE India
+                            Council</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text overlay-click" data-overlay="1" href="#">Application Form</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text overlay-click" data-overlay="2" href="#">Contact Form</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text overlay-click" href="http://www.git.edu/" target="blank">College
+                            Website</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i>KLS GIT, Udyambag, Belagavi, Karnataka, India 590008</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i>shreyasx@icloud.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i>+91 8698593178</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i>+91 831 2441909</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+            <div class="text-center text-black-50 py-2">© 2020 Copyright: Fantasy Developers
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

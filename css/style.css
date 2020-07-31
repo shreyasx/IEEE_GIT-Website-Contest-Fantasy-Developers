@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.navc {
+  background-color: #21d192;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -21,6 +25,27 @@ body {
   margin-top: 10px;
   background-color: white;
   text-align: center;
+}
+
+#bottom-body p {
+  clear: both;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.history p {
+  clear: both;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.inside li {
+  clear: both;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .course-heading {
@@ -41,14 +66,6 @@ body {
 
 #headp {
   margin-top: 20px;
-}
-
-p,
-li {
-  clear: both;
-  width: 80%;
-  margin: auto;
-  padding-top: 30px;
 }
 
 #ieeetitle {
@@ -109,6 +126,7 @@ li {
 
 #accordion {
   font-family: 'Roboto', sans-serif;
+  width: 75%;
 }
 
 #accordion .card-body {
@@ -116,6 +134,7 @@ li {
 }
 
 #info {
+  margin-top: 50px;
   font-size: 15px;
   text-align: center;
   color: rgb(146, 146, 173);
@@ -135,6 +154,7 @@ li {
 }
 
 .history {
+  width: 80%;
   margin-top: 10px;
   background-color: white;
   text-align: left;
@@ -147,6 +167,10 @@ li {
   text-align: center;
 }
 
+.teal {
+  background-color: #21d192;
+}
+
 @media(max-width:767px) {
   #navbarSupportedContent {
     background-color: #292b2c;
@@ -157,9 +181,19 @@ li {
   }
 }
 
+footer {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media(max-width:575px) {
   * {
     font-size: 14px;
+  }
+
+  #accordion {
+    width: 90%;
   }
 
   #ieeetitle {
@@ -178,6 +212,11 @@ li {
   }
 
   .history {
+    width: 100%;
     padding: 5px !important;
   }
+}
+
+.card-body {
+  font-size: 14px;
 }

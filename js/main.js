@@ -22,8 +22,6 @@ $(document).ready(function () {
         closeOverlays(false);
     });
     $('.overlay-click').click(function (e) {
-        console.log('clicked');
-        e.preventDefault();
         var oid = $(this).data('overlay');
         closeOverlays(oid);
     });
