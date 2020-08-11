@@ -124,21 +124,17 @@ body {
   display: none;
 }
 
-#accordion {
-  font-family: 'Roboto', sans-serif;
+#event-list {
+  font-size: 18px;
   width: 75%;
 }
-
-#accordion .card-body {
-  font-size: 16px;
+#event-list h3{
+  padding-top: 20px;
 }
-
 #info {
   margin-top: 50px;
   font-size: 15px;
   text-align: center;
-  color: rgb(146, 146, 173);
-  text-decoration: underline;
 }
 
 #gitbanner {
