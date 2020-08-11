@@ -216,5 +216,7 @@ footer {
 .card-body {
   font-size: 14px;
 }
-
-/* #292b2c */
+.card:hover{
+  transform:scale(1.1,1.1);
+  transition-duration: 1s;
+}
