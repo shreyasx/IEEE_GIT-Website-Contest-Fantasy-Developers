@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -128,6 +129,11 @@ body {
   font-size: 18px;
   width: 75%;
 }
+
+#event-list h3 {
+  clear: both;
+}
+
 #event-list h3{
   padding-top: 20px;
 }
@@ -154,11 +160,14 @@ body {
   margin-top: 10px;
   background-color: white;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Baloo Tamma 2', cursive;
   font-size: 18px;
 }
 
 #histitle {
+  margin-top: 20px;
+  font-size: 45px;
+  margin-bottom: 20px;
   font-family: 'Acme', sans-serif;
   text-align: center;
 }
@@ -216,7 +225,40 @@ footer {
 .card-body {
   font-size: 14px;
 }
-.card:hover{
+
+.card:hover {
   transform:scale(1.1,1.1);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+}
+
+.eventimage {
+  float: right;
+  width: 350px;
+  margin: 10px;
+}
+
+#small {
+  display: none;
+}
+
+@media(max-width:1199px) {
+  .eventimage {
+    float: none;
+    margin: auto;
+    width: 100% !important;
+    display: block;
+  }
+
+  #small {
+    display: block;
+  }
+
+  #big {
+    display: none;
+  }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
 }
