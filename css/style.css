@@ -193,6 +193,10 @@ footer {
 }
 
 @media(max-width:575px) {
+  .p-5 {
+    padding: 8px !important;
+  }
+  
   * {
     font-size: 14px;
   }
