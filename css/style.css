@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 .navc {
   background-color: #21d192;
 }
